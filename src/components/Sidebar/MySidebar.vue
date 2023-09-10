@@ -13,7 +13,7 @@ export default {
 
 <template>
   <div class="sidebar" :style="{ width: sidebarWidth }">
-    <h1>
+    <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-3xl lg:text-4xl">
       <span v-if="collapsed">
         <div>V</div>
         <div>S</div>

@@ -17,17 +17,10 @@ export default {
 <template>
   <MySidebar />
   <div :style="{ 'margin-left': sidebarWidth }">
-    <div class="container">
+    <div class="container mx-auto px-4 mt-4">
       <RouterView />
     </div>
   </div>
 </template>
 
-<style scoped>
-.container {
-  max-width: 1600px;
-  margin: auto;
-  margin-left: calc(auto - 15px);
-  padding-left: 15px;
-}
-</style>
+<style scoped></style>

@@ -14,6 +14,6 @@ getResults()
 
 <template>
   <main>
-    <MyTable :data="laravelData.data" />
+    <MyTable :data="laravelData.data" name="Compant Table 1" />
   </main>
 </template>

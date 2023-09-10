@@ -14,6 +14,8 @@ getResults()
 </script>
 
 <template>
-  <MyTable :data="laravelData.data" />
-  <TailwindPagination :data="laravelData" @pagination-change-page="getResults" />
+  <MyTable :data="laravelData.data" name="Company Table With Pagination" />
+  <div class="flex justify-center items-center">
+    <TailwindPagination :data="laravelData" @pagination-change-page="getResults" />
+  </div>
 </template>
